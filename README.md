@@ -9,7 +9,7 @@
 - **FastAPI** (Python)
 - **SQLAlchemy** (ORM)
 - **SQLite** (local database)
-- **Gemini API** (AI-based extraction)
+- **Groq API** (AI-based extraction)
 
 ---
 
@@ -25,7 +25,7 @@ Create `.env` file:
 
 ```
 DATABASE_URL=sqlite:///./test.db
-GEMINI_API_KEY=your_api_key_here
+GROQ_API_KEY=your_api_key_here
 ```
 
 Run:
